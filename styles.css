@@ -1,13 +1,13 @@
 body {
     font-family: 'Times New Roman', serif;
-    background-color: #ffffff; /* Essential for printing */
+    background-color: #ffffff;
     color: #000000;
     margin: 0;
     padding: 20px;
 }
 
 .report-container {
-    max-width: 750px; /* Simulates a standard printable page width */
+    max-width: 800px; /* Increased for better paper usage */
     margin: 0 auto;
     padding: 0;
     border: none;
@@ -61,8 +61,8 @@ label {
 }
 
 .print-line {
-    border-bottom: 1px solid #000; /* The actual line for writing */
-    height: 15px; /* Space above the line for text */
+    border-bottom: 1px solid #000;
+    height: 15px;
     flex-shrink: 0;
     margin-right: 20px;
 }
@@ -89,11 +89,10 @@ label {
 /* --- Writing Area Styles --- */
 .print-writing-area {
     margin-top: 5px;
-    /* Removed padding/border left for cleaner print look */
 }
 
 .summary-lines .print-line {
-    margin-bottom: 8px; /* Spacing between lines in the summary */
+    margin-bottom: 8px;
 }
 
 /* --- Character Traits --- */
@@ -117,14 +116,14 @@ label {
 
 /* --- Drawing Box (High Contrast Border) --- */
 .drawing-box {
-    height: 250px;
+    height: 200px; /* Reduced slightly to fit more lines on the page */
     border: 2px dashed #000;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5px;
-    background-color: #f7f7f7; /* Light gray background to define the space */
+    background-color: #f7f7f7;
 }
 
 .drawing-box p {
@@ -150,7 +149,7 @@ label {
 }
 
 .circle {
-    border: 2px solid #000; /* Strong border for circling */
+    border: 2px solid #000;
     border-radius: 50%;
     width: 55px;
     height: 25px;
