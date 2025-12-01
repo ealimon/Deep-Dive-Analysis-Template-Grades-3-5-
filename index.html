@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Report Deep Dive (Gr 3-5)</title>
+    <link rel="stylesheet" href="styles_deep_dive.css"> 
+</head>
+<body>
+
+    <div class="report-container">
+        <header>
+            <h1>Deep Dive Book Analysis</h1>
+            <h2>Title: <input type="text" class="header-line" style="width: 300px;"> by <input type="text" class="header-line" style="width: 200px;"></h2>
+        </header>
+
+        <section class="main-sections-grid">
+            
+            <div class="grid-item summary-box">
+                <h3>Plot Summary (The 5-Finger Retell)</h3>
+                <textarea rows="6" placeholder="Write 4-5 sentences: Someone wanted something, but then what happened? Finally, what was the resolution?"></textarea>
+            </div>
+
+            <div class="grid-item character-traits-box">
+                <h3>Main Character Traits</h3>
+                <p>Describe your character using 3 strong words and give an example for each.</p>
+                <div class="trait-entry">
+                    <label>1. Trait:</label><input type="text" class="line-fill">
+                    <label>Evidence:</label><textarea rows="2"></textarea>
+                </div>
+                <div class="trait-entry">
+                    <label>2. Trait:</label><input type="text" class="line-fill">
+                </div>
+            </div>
+            
+            <div class="grid-item conflict-box">
+                <h3>Problem & Solution (Conflict)</h3>
+                <label>The Main Problem Was:</label>
+                <textarea rows="3"></textarea>
+                <label>The Solution/Resolution Was:</label>
+                <textarea rows="3"></textarea>
+            </div>
+
+            <div class="grid-item theme-box">
+                <h3>The Author's Message (Theme)</h3>
+                <textarea rows="5" placeholder="What lesson or 'big idea' does the author want you to take away from this story?"></textarea>
+            </div>
+            
+        </section>
+        
+        <footer class="review-section">
+            <div class="review-text">
+                <h3>My Recommendation</h3>
+                <textarea rows="3" placeholder="Would you recommend this book? Why or why not?"></textarea>
+            </div>
+            <div class="review-rating">
+                <h4>Rating:</h4>
+                <div class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+                <p>Circle your rating out of 5 stars!</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
