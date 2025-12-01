@@ -3,78 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Literary Mission Log (Grades 3-5)</title>
-    <link rel="stylesheet" href="styles_mission.css"> 
+    <title>Deep Dive Book Report (Printable)</title>
+    <link rel="stylesheet" href="styles_printable.css"> 
 </head>
 <body>
 
-    <div class="mission-log-container">
+    <div class="report-container">
         <header>
-            <h1>Literary Mission Log: Book Deep Dive</h1>
+            <h1>Deep Dive Book Report</h1>
+            <p class="subtitle">(Grades 3-5: Analysis & Critique)</p>
+        </header>
+        
+        <section class="book-details">
             <div class="info-line">
                 <label>Book Title:</label>
-                <input type="text" class="header-line" style="width: 350px;">
+                <div class="print-line" style="width: 400px;"></div>
                 <label>Author:</label>
-                <input type="text" class="header-line" style="width: 250px;">
+                <div class="print-line" style="width: 200px;"></div>
             </div>
-        </header>
+            <div class="info-line">
+                <label>Your Name:</label>
+                <div class="print-line" style="width: 250px;"></div>
+                <label>Date:</label>
+                <div class="print-line" style="width: 150px;"></div>
+            </div>
+        </section>
 
-        <section class="analysis-grid top-row">
-            
-            <div class="mission-card character-card">
-                <h3>Character Spotlight! 🕵️</h3>
-                <label>Who is the Main Character?</label>
-                <input type="text" class="data-line">
-                
-                <div class="trait-entry">
-                    <label>3 Words to Describe Them:</label>
-                    <input type="text" class="data-line" placeholder="Trait 1 (e.g., Brave)">
-                    <input type="text" class="data-line" placeholder="Trait 2 (e.g., Stubborn)">
-                    <input type="text" class="data-line" placeholder="Trait 3 (e.g., Clever)">
+        <section class="section-box plot-analysis">
+            <h2>Part 1: Plot & Setting</h2>
+            <div class="column-grid-2">
+                <div class="grid-item">
+                    <label>Main Character(s):</label>
+                    <div class="print-line long-line"></div>
+                    <label>Setting (Time & Place):</label>
+                    <div class="print-line long-line"></div>
+                    
+                    <label>Plot Summary (Beginning, Middle, End):</label>
+                    <div class="print-writing-area summary-lines">
+                        <div class="print-line full-width"></div>
+                        <div class="print-line full-width"></div>
+                        <div class="print-line full-width"></div>
+                        <div class="print-line full-width"></div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <label>Main Conflict (The Big Problem):</label>
+                    <div class="print-writing-area tall">
+                        <div class="print-line full-width"></div>
+                        <div class="print-line full-width"></div>
+                        <div class="print-line full-width"></div>
+                        <div class="print-line full-width"></div>
+                        <div class="print-line full-width"></div>
+                    </div>
+                    <label>Resolution (How the Problem was Solved):</label>
+                    <div class="print-writing-area tall">
+                        <div class="print-line full-width"></div>
+                        <div class="print-line full-width"></div>
+                        <div class="print-line full-width"></div>
+                    </div>
                 </div>
             </div>
-
-            <div class="mission-card visual-card">
-                <h3>Visualize Your Mission! 🎨</h3>
-                <p>Draw the most important moment or scene from the book.</p>
-                <div class="drawing-area">
-                    <p>Your Awesome Scene Here!</p>
-                </div>
-            </div>
-            
         </section>
         
-        <section class="analysis-grid bottom-row">
-            
-            <div class="mission-card conflict-card">
-                <h3>The Story's Big Challenge 💥</h3>
+        <section class="section-box character-theme-review">
+            <h2>Part 2: Analysis & Review</h2>
+            <div class="column-grid-2">
                 
-                <label>1. THE PROBLEM (The Conflict):</label>
-                <textarea rows="4" placeholder="What is the BIGGEST challenge the character faced in the story?"></textarea>
-                
-                <label>2. THE SOLUTION (The Resolution):</label>
-                <textarea rows="4" placeholder="How was the problem finally fixed or solved?"></textarea>
-            </div>
-
-            <div class="mission-card theme-review-card">
-                
-                <div class="theme-box">
-                    <h3>The Big Idea (Theme) 💡</h3>
-                    <textarea rows="3" placeholder="What major lesson or message did the author want you to learn?"></textarea>
-                </div>
-                
-                <div class="review-box">
-                    <h3>Final Verdict! ⭐⭐⭐⭐⭐</h3>
-                    <p>How would you rate this mission?</p>
-                    <div class="stars-rating">
-                        &#9733; &#9733; &#9733; &#9733; &#9733;
+                <div class="grid-item">
+                    <label>Character Traits: What kind of person is the main character?</label>
+                    <div class="trait-entry">
+                        <span class="trait-prompt">Trait 1:</span>
+                        <div class="print-line short-line"></div>
                     </div>
-                    <label>I Recommend This Book Because:</label>
-                    <textarea rows="3" placeholder="Explain your opinion in 2-3 compelling sentences!"></textarea>
+                    <div class="trait-entry">
+                        <span class="trait-prompt">Evidence (What did they do?):</span>
+                        <div class="print-line long-line"></div>
+                    </div>
+                    <label>The Author's Message (Theme):</label>
+                    <div class="print-writing-area">
+                        <div class="print-line full-width"></div>
+                        <div class="print-line full-width"></div>
+                    </div>
+                    
+                    <div class="review-box">
+                        <label class="rating-label">My Recommendation:</label>
+                        <div class="rating-section">
+                            <span class="circle">YES!</span> <span class="circle">MAYBE</span> <span class="circle">NO</span>
+                        </div>
+                        <div class="stars-for-print">
+                            <span class="star-outline">☆</span><span class="star-outline">☆</span><span class="star-outline">☆</span><span class="star-outline">☆</span><span class="star-outline">☆</span> (Color or circle your rating!)
+                        </div>
+                    </div>
                 </div>
+                
+                <div class="grid-item">
+                    <label>Draw a Scene: Illustrate your favorite part of the story!</label>
+                    <div class="drawing-box">
+                        <p>Drawing Area</p>
+                    </div>
+                </div>
+                
             </div>
         </section>
-
+        
+        <footer>
+            <p>✂️ Please ensure you have completed all sections before turning in your report.</p>
+        </footer>
     </div>
 </body>
 </html>
