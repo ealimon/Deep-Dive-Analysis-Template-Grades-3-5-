@@ -3,62 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Report Deep Dive (Gr 3-5)</title>
-    <link rel="stylesheet" href="styles_deep_dive.css"> 
+    <title>Book Report Deep Dive (Grades 3-5)</title>
+    <link rel="stylesheet" href="styles_deep_dive_revised.css"> 
 </head>
 <body>
 
     <div class="report-container">
         <header>
-            <h1>Deep Dive Book Analysis</h1>
-            <h2>Title: <input type="text" class="header-line" style="width: 300px;"> by <input type="text" class="header-line" style="width: 200px;"></h2>
+            <h1>My Deep Dive Book Report</h1>
+            <h2>(Grades 3 - 5)</h2>
+            <div class="info-line">
+                <label for="title">Book Title:</label>
+                <input type="text" id="title" class="header-line" style="width: 300px;">
+                <label for="author">Author:</label>
+                <input type="text" id="author" class="header-line" style="width: 200px;">
+            </div>
         </header>
 
-        <section class="main-sections-grid">
+        <section class="top-sections-grid">
             
-            <div class="grid-item summary-box">
-                <h3>Plot Summary (The 5-Finger Retell)</h3>
-                <textarea rows="6" placeholder="Write 4-5 sentences: Someone wanted something, but then what happened? Finally, what was the resolution?"></textarea>
-            </div>
-
-            <div class="grid-item character-traits-box">
-                <h3>Main Character Traits</h3>
-                <p>Describe your character using 3 strong words and give an example for each.</p>
-                <div class="trait-entry">
-                    <label>1. Trait:</label><input type="text" class="line-fill">
-                    <label>Evidence:</label><textarea rows="2"></textarea>
-                </div>
-                <div class="trait-entry">
-                    <label>2. Trait:</label><input type="text" class="line-fill">
+            <div class="grid-item draw-box">
+                <h3>Draw Your Favorite Scene or Character</h3>
+                <div class="drawing-area">
+                    <p>Draw and color your picture here!</p>
                 </div>
             </div>
-            
-            <div class="grid-item conflict-box">
-                <h3>Problem & Solution (Conflict)</h3>
-                <label>The Main Problem Was:</label>
-                <textarea rows="3"></textarea>
-                <label>The Solution/Resolution Was:</label>
-                <textarea rows="3"></textarea>
-            </div>
 
-            <div class="grid-item theme-box">
-                <h3>The Author's Message (Theme)</h3>
-                <textarea rows="5" placeholder="What lesson or 'big idea' does the author want you to take away from this story?"></textarea>
+            <div class="grid-item analysis-column">
+                
+                <div class="analysis-section">
+                    <h3>Setting: When and Where?</h3>
+                    <textarea rows="2" placeholder="Describe the main location and time of the story."></textarea>
+                </div>
+
+                <div class="analysis-section">
+                    <h3>Problem (Conflict)</h3>
+                    <textarea rows="3" placeholder="What is the main challenge the character faces?"></textarea>
+                </div>
+                
+                <div class="analysis-section">
+                    <h3>Solution (Resolution)</h3>
+                    <textarea rows="3" placeholder="How was the problem solved at the end?"></textarea>
+                </div>
             </div>
             
         </section>
         
-        <footer class="review-section">
-            <div class="review-text">
-                <h3>My Recommendation</h3>
-                <textarea rows="3" placeholder="Would you recommend this book? Why or why not?"></textarea>
+        <section class="bottom-sections-grid">
+            
+            <div class="grid-item summary-box">
+                <h3>Plot Summary (Beginning, Middle, End)</h3>
+                <textarea rows="6" placeholder="Write 4-5 sentences about the main events in the correct order."></textarea>
             </div>
-            <div class="review-rating">
-                <h4>Rating:</h4>
-                <div class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                <p>Circle your rating out of 5 stars!</p>
+
+            <div class="grid-item review-box">
+                <h3>My Review & Opinion</h3>
+                <div class="rating-box">
+                    <h4>How much did you like it?</h4>
+                    <div class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+                    <p>(Circle your star rating)</p>
+                </div>
+                
+                <div class="recommendation-box">
+                    <label>I would recommend this book because:</label>
+                    <textarea rows="3" placeholder="Explain your opinion and give reasons."></textarea>
+                </div>
             </div>
-        </footer>
+
+        </section>
     </div>
 </body>
 </html>
