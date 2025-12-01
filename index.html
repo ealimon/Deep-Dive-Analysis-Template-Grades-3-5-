@@ -3,74 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Report Deep Dive (Grades 3-5)</title>
-    <link rel="stylesheet" href="styles_deep_dive_revised.css"> 
+    <title>Literary Mission Log (Grades 3-5)</title>
+    <link rel="stylesheet" href="styles_mission.css"> 
 </head>
 <body>
 
-    <div class="report-container">
+    <div class="mission-log-container">
         <header>
-            <h1>My Deep Dive Book Report</h1>
-            <h2>(Grades 3 - 5)</h2>
+            <h1>Literary Mission Log: Book Deep Dive</h1>
             <div class="info-line">
-                <label for="title">Book Title:</label>
-                <input type="text" id="title" class="header-line" style="width: 300px;">
-                <label for="author">Author:</label>
-                <input type="text" id="author" class="header-line" style="width: 200px;">
+                <label>Book Title:</label>
+                <input type="text" class="header-line" style="width: 350px;">
+                <label>Author:</label>
+                <input type="text" class="header-line" style="width: 250px;">
             </div>
         </header>
 
-        <section class="top-sections-grid">
+        <section class="analysis-grid top-row">
             
-            <div class="grid-item draw-box">
-                <h3>Draw Your Favorite Scene or Character</h3>
-                <div class="drawing-area">
-                    <p>Draw and color your picture here!</p>
+            <div class="mission-card character-card">
+                <h3>Character Spotlight! 🕵️</h3>
+                <label>Who is the Main Character?</label>
+                <input type="text" class="data-line">
+                
+                <div class="trait-entry">
+                    <label>3 Words to Describe Them:</label>
+                    <input type="text" class="data-line" placeholder="Trait 1 (e.g., Brave)">
+                    <input type="text" class="data-line" placeholder="Trait 2 (e.g., Stubborn)">
+                    <input type="text" class="data-line" placeholder="Trait 3 (e.g., Clever)">
                 </div>
             </div>
 
-            <div class="grid-item analysis-column">
-                
-                <div class="analysis-section">
-                    <h3>Setting: When and Where?</h3>
-                    <textarea rows="2" placeholder="Describe the main location and time of the story."></textarea>
-                </div>
-
-                <div class="analysis-section">
-                    <h3>Problem (Conflict)</h3>
-                    <textarea rows="3" placeholder="What is the main challenge the character faces?"></textarea>
-                </div>
-                
-                <div class="analysis-section">
-                    <h3>Solution (Resolution)</h3>
-                    <textarea rows="3" placeholder="How was the problem solved at the end?"></textarea>
+            <div class="mission-card visual-card">
+                <h3>Visualize Your Mission! 🎨</h3>
+                <p>Draw the most important moment or scene from the book.</p>
+                <div class="drawing-area">
+                    <p>Your Awesome Scene Here!</p>
                 </div>
             </div>
             
         </section>
         
-        <section class="bottom-sections-grid">
+        <section class="analysis-grid bottom-row">
             
-            <div class="grid-item summary-box">
-                <h3>Plot Summary (Beginning, Middle, End)</h3>
-                <textarea rows="6" placeholder="Write 4-5 sentences about the main events in the correct order."></textarea>
+            <div class="mission-card conflict-card">
+                <h3>The Story's Big Challenge 💥</h3>
+                
+                <label>1. THE PROBLEM (The Conflict):</label>
+                <textarea rows="4" placeholder="What is the BIGGEST challenge the character faced in the story?"></textarea>
+                
+                <label>2. THE SOLUTION (The Resolution):</label>
+                <textarea rows="4" placeholder="How was the problem finally fixed or solved?"></textarea>
             </div>
 
-            <div class="grid-item review-box">
-                <h3>My Review & Opinion</h3>
-                <div class="rating-box">
-                    <h4>How much did you like it?</h4>
-                    <div class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <p>(Circle your star rating)</p>
+            <div class="mission-card theme-review-card">
+                
+                <div class="theme-box">
+                    <h3>The Big Idea (Theme) 💡</h3>
+                    <textarea rows="3" placeholder="What major lesson or message did the author want you to learn?"></textarea>
                 </div>
                 
-                <div class="recommendation-box">
-                    <label>I would recommend this book because:</label>
-                    <textarea rows="3" placeholder="Explain your opinion and give reasons."></textarea>
+                <div class="review-box">
+                    <h3>Final Verdict! ⭐⭐⭐⭐⭐</h3>
+                    <p>How would you rate this mission?</p>
+                    <div class="stars-rating">
+                        &#9733; &#9733; &#9733; &#9733; &#9733;
+                    </div>
+                    <label>I Recommend This Book Because:</label>
+                    <textarea rows="3" placeholder="Explain your opinion in 2-3 compelling sentences!"></textarea>
                 </div>
             </div>
-
         </section>
+
     </div>
 </body>
 </html>
